@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 class Square:
     """ A class that defines a square by its size
     """
@@ -26,6 +27,7 @@ class Square:
         """ Method that returns the position value
         """
         return self.__position
+
     @position.setter
     def position(self, value):
         """ Method that sets the position value of a square object
@@ -41,6 +43,7 @@ class Square:
         if value[0] < 0 or value[1] < 0:
             raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = value
+
     def area(self):
         """ Method that returns the square are of the object
         """

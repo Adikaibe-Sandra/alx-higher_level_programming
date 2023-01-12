@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 class Square:
     """ A class that defines a square by its size
     """
@@ -29,8 +30,7 @@ class Square:
         elif value < 0:
             raise ValueError("size must be >= 0")
         else:
-            self.__size = valu
-
+            self.__size = value
     def my_print(self):
         """ Method that prints a # square according
         to the size value

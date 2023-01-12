@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 class Square:
     """ A class that defines a square by its size
     """
@@ -13,7 +14,7 @@ class Square:
                 rtn += " "
             for j in range(self.size):
                 rtn += "#"
-            if i is not (self.size - 1)
+            if i is not (self.size - 1):
                 rtn += "\n"
         return rtn
     def __init__(self, size=0, position=(0, 0)):
