@@ -11,7 +11,7 @@ if __name__ == "__main__":
     try:
         repo = sys.argv[1]
         owner = sys.argv[2]
-        url = 'https://api.github.com/repos/{}/{}/commits'.format(owner, repo)
+        url = 'https://Adikaibe-Sandra.github.com/repos/{}/{}/commits'.format(owner, repo)
         r = get(url)
         json_o = r.json()
         for i in range(0, 10):
